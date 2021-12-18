@@ -1,0 +1,351 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+
+/* couleur grise pour le fond d'écran */
+.container h2{
+  width: 100%;
+  font-size: 1.75rem;
+}  
+
+
+.container h4{
+	font-size: 1rem;
+}
+
+
+/* texte we love to write code */
+nav ul  {
+	list-style: none;
+	display: flex;
+	justify-content: space-between; 
+	
+}
+
+
+nav ul div li :hover{
+	color: rgb(13, 206, 206);
+}	
+	
+
+/* we  to write code en blanc*/
+article div> h1 {
+ padding-top: 15px;		
+  color: white;
+  /*font-size: 2vw; */
+  font-size: 2rem;
+}
+
+
+/* ecriture en orange*/
+h2,
+h3,
+small {
+  color: rgb(213, 92, 37);
+}
+
+
+h4 { 
+  font-size: 1rem; 
+  color: white;
+}  
+
+
+
+/* ecriture en blanc*/
+h5 {
+  color: white;
+  /*font-size: 1.60vw; */
+  font-size: 1rem;
+}
+
+
+/* LOVE en orange*/
+span {
+  color: rgb(213, 92, 37);
+}
+
+
+/* we love to write code et Salem sont centrés */
+article {
+  text-align: center;
+}
+
+
+/* Titre Clean & modern design - powerful theme customer ..... */
+em {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 0.67rem;
+}
+
+
+/* petit texte lorem*/
+.col-sm-3 { 
+  font-size: 0.75rem;  
+  padding: 10px;
+}
+
+
+/* images logos*/
+img > .pe-2 { 
+  font-size: 50px;
+}
+
+
+/* aligne les 4 images */
+div .boite {
+  background: rgb(245, 111, 8);
+  height: 180px;
+  width: 80vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  margin: 15px;
+}
+
+
+.logo-imag {
+  padding: 1px;
+}
+
+
+/* section titre  TRUSTED BRANDS & CLIENTS */
+section h3 {  
+  font-size: 1.5rem;
+}
+
+
+section {
+  justify-content: center;
+}
+
+
+footer div .sociaux{
+	text-align: right;
+	margin-top: -42px;
+}	
+	
+
+.copyright {
+	text-align: center;
+}
+	  
+
+/********************** MEDIAS QUERIES ********************/
+
+@media screen and (max-width: 1400px) {
+  
+	/* texte we love to write code*/
+	.col-sm-5 h1 {
+	  font-size: 1.18rem; 
+	}
+
+	/* Salem */
+	.container h2{
+		font-size: 1.15rem;
+	}
+  	
+    .container h4 {
+	  font-size: 0.75rem; 
+	}
+  
+	/* texte Salem is a new and modern agency.... */
+	article aside > p {
+	  font-size: 0.7rem;
+	}
+}
+
+
+@media screen and (max-width: 1469px) {
+  /* petits logos crayon, trophé, peinture etc...  pe-2 */
+  div .col-sm-3 > .pe-2 {
+    min-height: 15px;
+    max-width: 20px;
+  }
+}
+
+
+@media screen and (max-width: 1469px) {
+  /* positionnement des logos images*/
+	div .boite {
+    height: 175px;
+    width: 86vw;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  /* petits logos */
+  div .logo-imag img {
+    width: 155px;
+    height: 155px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+
+@media screen and (max-width: 1449px) {
+  div .boite {
+    height: 175px;
+    width: 86vw;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  /* petits logos */
+  div .logo-imag img {
+    width: 150px;
+    height: 150px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+
+@media screen and (max-width: 995px) {
+  div .boite {
+    height: 175px;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  /* petits logos  */
+  div .logo-imag img {
+    width: 140px;
+    height: 140px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+
+@media screen and (max-width: 895px) {
+  div .boite {
+    height: 175px;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  /* petits logos  */
+  div .logo-imag img {
+    width: 140px;
+    height: 140px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  div .boite {
+    height: 175px;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  /* petits logos */
+  div .logo-imag img {
+    width: 120px;
+    height: 120px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+
+@media screen and (max-width: 613px) {
+  div .boite {
+    height: 100px;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  /* petits logos */
+  div .logo-imag img {
+    width: 50px;
+    height: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+
+/* section  titre TRUSTED BRANDS & CLIENTS */
+@media screen and (max-width: 1469px) {
+  section h3 {
+    font-size: calc(0.8rem + 0.6vw);
+  }
+
+  section p {
+    font-size: 0.8rem;  
+  }
+
+
+  p h6 {
+    font-size: 0.7rem; 
+  }
+}
+
+
+
+/* FOOTER */
+@media screen and (max-width: 1469px) {
+   /* email */
+  div .row > .col > h5 {
+    font-size: 0.80rem;  
+  }
+
+   /* logos réseaux sociaux*/
+  div .row > .col img {
+    min-width: 0.7rem;   
+    max-width: 0.85rem; 
+  }
+
+  /* texte Receive our newsletter ... */
+  div .receive h5 {
+    font-size: 0.8rem;  
+  }
+
+  /* copyright */
+  div .copyright h5 {
+    font-size: 0.70rem; 
+  }
+}
+
+
+/* barre de séparation */
+h6{
+  margin-bottom: 24px;
+  position: relative;
+}
+
+
+/*  création d'une barre de séparation */
+h6::after {
+  content: "";
+  position: absolute;
+  background: rgb(248, 137, 10);
+  height: 2px;
+  width: 100%;
+  bottom: -14px;
+  left: 50%;
+  transform: translateX(-50%) scaleX(0);
+  animation: h1anim 6s ease-in-out forwards;
+  transform-origin: centre;
+ 
+}
+
+/* animation pour la barre de séparation */
+@keyframes h1anim {
+  100% {
+    transform: translateX(-50%) scaleX(1);
+  }
+}
